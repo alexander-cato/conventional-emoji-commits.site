@@ -3,6 +3,12 @@
 ## Cards
 
 ::card-grid
+   ::card{icon=✨ lights noise}
+   #title
+   feat
+   #description
+   Introduction of a new feature or capability.
+   ::
    ::card{icon=🩹 lights noise}
    #title
    fix
@@ -38,12 +44,6 @@
    docs
    #description
    Changes or additions to documentation.
-   ::
-   ::card{icon=✨ lights noise}
-   #title
-   feat
-   #description
-   Introduction of a new feature or capability.
    ::
    ::card{icon=⚡️ lights noise}
    #title
@@ -201,12 +201,12 @@
 
 | Emoji | Code               | Scope                        | Description                                                                                   |
 |-------|--------------------|------------------------------|-----------------------------------------------------------------------------------------------|
+| ✨    | `:sparkles:`       | **feat**                     | Introduction of a new feature or capability.                                                  |
 | 🩹    | `:adhesive_bandage:`| **fix**                     | Corrections of bugs or issues.                                                                |
 | 🤖    | `:robot:`          | **ci**                       | Changes to CI configuration files or scripts.                                                 |
 | 🛠️    | `:hammer_and_wrench:`| **build**                  | Changes that affect the build system or external dependencies.                                 |
 | 🧹    | `:broom:`          | **chore**                    | Routine tasks or minor maintenance activities.                                                |
 | 📚    | `:books:`          | **docs**                     | Changes or additions to documentation.                                                        |
-| ✨    | `:sparkles:`       | **feat**                     | Introduction of a new feature or capability.                                                  |
 | ⚡️    | `:rocket:`         | **perf**                     | Optimizations that improve system performance.                                                |
 | ♻️    | `:recycle:`        | **refactor**                 | Code revisions without changing functionality.                                                |
 | ⏪    | `:rewind:`         | **revert**                   | Reverting a previous commit.                                                                  |
