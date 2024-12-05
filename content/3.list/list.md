@@ -81,12 +81,6 @@
    #description
    Changes related to animation functionalities or effects.
    ::
-   ::card{icon=🌍 lights noise}
-   #title
-   common
-   #description
-   General changes or updates that don't fit into other specific categories.
-   ::
    ::card{icon=🔍 lights noise}
    #title
    compiler
